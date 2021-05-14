@@ -1,0 +1,24 @@
+1) Enter training data in "train_data.txt" file
+2) Input format is (See sample train_data.txt or INPUT_FORMAT.png also):
+
+	<input dimension> <output dimension>
+	<number of hidden layers>
+	<number of nodes in hidden layer #1> ... <number of nodes in hidden layer #LAST> 
+	<activation function in hidden layer #1> ... <activation function in hidden layer #LAST>
+	<activation function in output layer>
+	<number of epochs>
+	<number of training data points>
+	<x1 of data point #1> ... <xn of data point #1> <y1 of data point #1> ... <ym of data point #1>
+	<x1 of data point #2> ... <xn of data point #2> <y1 of data point #2> ... <ym of data point #2>
+
+
+3) Run the following commands in a terminal window inside the code folder
+4) g++ -o out neuralNetwork.cpp
+5) ./out
+
+
+
+
+NOTE:
+- Following Activation Functions are available: "linear", "relu", "leakyRelu", "sigmoidal", "tanHyperbolic"
+- Running the program multiple times gives different results, due to weight initialization techniques. Run the program multiple times to get a good run
